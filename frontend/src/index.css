@@ -1,0 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Sevillana&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Salsa&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  font-family: "Salsa", sans-serif;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+/* 
+.chat{
+  font-family:"Roboto Slab";
+} */
+
+.rotate{
+  animation:rotation 8s infinite linear;
+}
+
+@keyframes rotation{
+  from {
+    transform : rotate(0deg)
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
